@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { GithubIcon } from "lucide-react";
+import { GithubIcon, MailIcon } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -30,7 +30,20 @@ export default function HomePage() {
           />
 
           <div className="flex flex-col items-start justify-center gap-1">
-            <span className="font-mono text-sm text-white">Ricard Torres</span>
+            <div className="flex items-center gap-2">
+              <span className="font-mono text-sm text-white">
+                Ricard Torres
+              </span>
+              {/* Email button */}
+              <Link href="mailto:ricard@happlicant.com">
+                <Button
+                  variant="ghost"
+                  className="h-6 w-6 cursor-pointer bg-white/20 p-0 hover:bg-white/30"
+                >
+                  <MailIcon className="size-2.5 text-white" />
+                </Button>
+              </Link>
+            </div>
             <span className="font-mono text-xs text-white/70">
               Co-founder & CTO @ Happlicant
             </span>
