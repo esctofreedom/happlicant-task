@@ -2,12 +2,11 @@ export type Company = {
   id: string;
   name: string;
   description?: string;
-  logo?: string;
+  logo_url?: string;
   website?: string;
   location?: string;
   industry?: string;
-  size?: number;
+  employee_count?: number;
   founded?: number;
   ceo?: string;
-  ceo_title?: string;
 };
