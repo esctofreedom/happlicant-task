@@ -1,29 +1,61 @@
-# Create T3 App
+# Happlicant Tech Task
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Hey!
+Thanks for taking the time to complete this short technical challenge.
+This task is designed to take **around 1–2 hours**, and it’s an opportunity to show your **design sense**, **frontend skills**, and **attention to detail**.
 
-## What's next? How do I make an app with this?
+---
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Goal
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Build a simple **Company Management App**.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+The base project (Next.js + Shadcn + dummy API) is already set up for you — just focus on building the functionality and UI. You'll also find a type for Company in the types folder.
 
-## Learn More
+---
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## Requirements
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### 1. Display Companies
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- Fetch and display the existing companies from the dummy API.
+- Show them in a **table** or **card grid** (bonus: build and toggle between the two views).
 
-## How do I deploy this?
+### 2. Add Companies
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- Add a form or modal that lets you add a new company.
+- You choose your preferred way to save the data. State, localstorage, etc.
+
+### 3. Delete Companies
+
+- Allow deleting existing companies from the list.
+- No need to code an editing function (but bonus points if you do!)
+
+---
+
+## What We’re Looking For
+
+We’re not expecting a big project — just clean, thoughtful work that shows you know how to:
+
+- Build a **good-looking, usable interface** with Shadcn/UI
+- Structure **React components** clearly
+- Handle **basic state** and **API interaction**
+- Pay attention to **UX** (loading states, validation, empty states)
+
+Bonus points for:
+
+- Nice design touches
+- Well-written commits
+
+---
+
+## How to Submit
+
+1. **Fork this repository** to your GitHub account.
+2. Complete the task in your fork.
+3. Open a **Pull Request** to this repository’s `main` branch.
+
+---
+
+Good luck, and have fun building! 🚀
+— The Happlicant Team
